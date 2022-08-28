@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://erail.in/blog/Images/Post/Haunted-railway-stations-in-world_6.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+  }
+  button{
+    font-size: large;
+    font-weight: bold;
+    /*background-color: rgb(194, 88, 26);*/
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    
+    
+  }
+  #increment-btn:hover{
+    color:black;
+  }
+  #increment-btn{
+    background: darkred;
+  margin-bottom: 1em;
+  }
+#save-btn{
+  background: blueviolet;
+}
+#save-btn:hover{
+  color: black;
+}
+#welcome-el{
+  /*font-size: larger;*/
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 3em;
+  text-align: center;
+}
+#save-el{
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 3em;
+  text-align: center;
+
+}
+#reset-btn{
+  margin-top: 1em;
+  background: orangered;
+}
+#reset-btn:hover{
+  color: chartreuse;
+}
